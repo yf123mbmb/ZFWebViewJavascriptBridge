@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint WebViewJavascriptBridge.podspec' to ensure this is a
+# Be sure to run `pod lib lint ZFWebViewJavascriptBridge.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'WebViewJavascriptBridge'
-  s.version          = '1.0.0'
+  s.name             = 'ZFWebViewJavascriptBridge'
+  s.version          = '1.0.1'
   s.summary          = '去除webview的版本'
 
 # This description is used to generate tags and improve search results.
@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'WebViewJavascriptBridge/**/*'
+  s.source_files = 'ZFWebViewJavascriptBridge/**/*'
   
   # s.resource_bundles = {
-  #   'WebViewJavascriptBridge' => ['WebViewJavascriptBridge/Assets/*.png']
+  #   'ZFWebViewJavascriptBridge' => ['ZFWebViewJavascriptBridge/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
