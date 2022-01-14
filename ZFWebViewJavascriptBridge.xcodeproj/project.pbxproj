@@ -14,6 +14,9 @@
 		3CCEA2F827916E08001DE535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CCEA2F727916E08001DE535 /* Assets.xcassets */; };
 		3CCEA2FB27916E08001DE535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCEA2F927916E08001DE535 /* LaunchScreen.storyboard */; };
 		3CCEA2FE27916E08001DE535 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEA2FD27916E08001DE535 /* main.m */; };
+		3CCEA31527917356001DE535 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEA30F27917356001DE535 /* WebViewJavascriptBridgeBase.m */; };
+		3CCEA31627917356001DE535 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEA31027917356001DE535 /* WKWebViewJavascriptBridge.m */; };
+		3CCEA31727917356001DE535 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEA31327917356001DE535 /* WebViewJavascriptBridge_JS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		3CCEA2FA27916E08001DE535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CCEA2FC27916E08001DE535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CCEA2FD27916E08001DE535 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CCEA30F27917356001DE535 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		3CCEA31027917356001DE535 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		3CCEA31127917356001DE535 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		3CCEA31227917356001DE535 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		3CCEA31327917356001DE535 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		3CCEA31427917356001DE535 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +79,25 @@
 				3CCEA2F427916E05001DE535 /* Main.storyboard */,
 				3CCEA2F727916E08001DE535 /* Assets.xcassets */,
 				3CCEA2F927916E08001DE535 /* LaunchScreen.storyboard */,
+				3CCEA30E27917356001DE535 /* WebViewJavascriptBridge */,
 				3CCEA2FC27916E08001DE535 /* Info.plist */,
 				3CCEA2FD27916E08001DE535 /* main.m */,
 			);
 			path = ZFWebViewJavascriptBridge;
 			sourceTree = "<group>";
+		};
+		3CCEA30E27917356001DE535 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				3CCEA30F27917356001DE535 /* WebViewJavascriptBridgeBase.m */,
+				3CCEA31027917356001DE535 /* WKWebViewJavascriptBridge.m */,
+				3CCEA31127917356001DE535 /* WebViewJavascriptBridge_JS.h */,
+				3CCEA31227917356001DE535 /* WebViewJavascriptBridgeBase.h */,
+				3CCEA31327917356001DE535 /* WebViewJavascriptBridge_JS.m */,
+				3CCEA31427917356001DE535 /* WKWebViewJavascriptBridge.h */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -149,7 +172,10 @@
 				3CCEA2F327916E05001DE535 /* ViewController.m in Sources */,
 				3CCEA2ED27916E05001DE535 /* AppDelegate.m in Sources */,
 				3CCEA2FE27916E08001DE535 /* main.m in Sources */,
+				3CCEA31727917356001DE535 /* WebViewJavascriptBridge_JS.m in Sources */,
 				3CCEA2F027916E05001DE535 /* SceneDelegate.m in Sources */,
+				3CCEA31527917356001DE535 /* WebViewJavascriptBridgeBase.m in Sources */,
+				3CCEA31627917356001DE535 /* WKWebViewJavascriptBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
